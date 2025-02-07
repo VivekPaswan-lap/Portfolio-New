@@ -4,12 +4,11 @@ import { useParams } from "react-router-dom";
 import '../App.css';
 
 function AIText(){
+
+    const Backend = import.meta.env.VITE_REACT_APP_BackEnd;
     const [loader, setLoader] = useState(false);
     const [result, setResult] = useState("");
     const [message, setMessage] = useState("");
-    // useEffect(()=>{
-    //     setResult(parms.text);
-    // },[]);
 
     const output_Box = document.getElementById("output-Box-Head"); 
 
@@ -45,7 +44,8 @@ function AIText(){
         event.preventDefault();
         console.log(message);
         try{
-        let data = await fetch("http://localhost:5004/AI",{
+        // let data = await fetch("http://localhost:5004/AI",{
+          let data = await fetch(`${Backend}/AI`,{
           method:"POST",
           body : JSON.stringify({message}),
           headers:{
@@ -75,10 +75,12 @@ function AIText(){
         <>
          <div id="AIText">
           <h2>Please Ask a Question</h2>
+      <div id="input-Box">
         <form onSubmit={Find}>
           <input type="text" onChange={(e)=>{setMessage(e.target.value)}} placeholder="Enter a question....."/>
           <button type="submit">Ask</button>
-    </form>
+       </form>
+    </div>
 
     <div id="Loader">
   
