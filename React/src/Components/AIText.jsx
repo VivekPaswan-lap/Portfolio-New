@@ -61,7 +61,7 @@ function AIText(){
         setResult(response);
       }catch(err){
         console.log(err);
-        setResult("Server Problem, Please try after some time !");
+        setResult("Some Problem, Please try after some time !");
       }
       } 
 

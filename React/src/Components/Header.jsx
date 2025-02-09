@@ -1,7 +1,7 @@
 import React from "react";
 //import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
-import myImage from "../Photos/myImage2.png";
+import myImage from "../Photos/Png.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars,faXmark} from "@fortawesome/free-solid-svg-icons";
 import codeHelp from "../Photos/image.gif";
