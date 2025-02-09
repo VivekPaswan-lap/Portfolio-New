@@ -29,7 +29,7 @@ function About(){
         <div id="about-col-2">
           <h1>About</h1>
           <p>
-            Hi, I am Rajan Pal. I have completed our B.Tech (Computer Science) from VBSPU Jaunpur.
+            Hi, I am Rajan Pal. I have completed our B.Tech (Computer Science & Engineering) from VBSPU Jaunpur.
             I have knowledge of Frontend, Backend and i have also good knowledge of C++ & DSA. 
           </p>
 
