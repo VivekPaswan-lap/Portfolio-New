@@ -63,7 +63,7 @@ export const Contacts = () => {
               palrajan196@gmail.com
             </p>
             <p>
-              <a href="">
+              <a href="tel:+7052370557">
                <FontAwesomeIcon icon={faPhone} className='Icon-email-phone'/>
               </a>{" "}
               7052370557

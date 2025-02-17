@@ -27,9 +27,6 @@ function Header(){
     document.getElementById("sidebar-hidden").style.right = `${-200}px`;
   }
 
-  
-  
-
     return(
         <>
         <div id="header">
@@ -63,7 +60,7 @@ function Header(){
         <h1>Hi, I'am <span>R</span>ajan <span> </span><br />From Uttar Pradesh</h1>
       </div>
       <div id="head-col2">
-        <img src={myImage} alt="" />
+        <img   src={myImage} alt="My Image" title="Rajan"/>
        
       </div>
       {/* <div id="Home-Div">
