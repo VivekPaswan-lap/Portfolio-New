@@ -5,7 +5,8 @@ import '../App.css';
 
 function AIText(){
 
-    const Backend = import.meta.env.VITE_REACT_APP_BackEnd;
+  //  const Backend = import.meta.env.VITE_REACT_APP_BackEnd;
+   const Backend = "http://localhost:5003";
     const [loader, setLoader] = useState(false);
     const [result, setResult] = useState("");
     const [message, setMessage] = useState("");
@@ -44,8 +45,8 @@ function AIText(){
         event.preventDefault();
         console.log(message);
         try{
-        // let data = await fetch("http://localhost:5004/AI",{
-          let data = await fetch(`${Backend}/AI`,{
+         let data = await fetch("http://localhost:5004/AI",{
+        //  let data = await fetch(`${Backend}/AI`,{
           method:"POST",
           body : JSON.stringify({message}),
           headers:{

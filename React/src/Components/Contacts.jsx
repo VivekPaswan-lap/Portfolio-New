@@ -21,7 +21,7 @@ export const Contacts = () => {
     event.preventDefault();
     AfterSend("Sending...");
     const  Data = {
-        to_name:"Rajan Pal",
+        to_name:"Vivek Paswan",
         from_name:Name,
         from_email:Email,
         message:Message,
@@ -57,16 +57,16 @@ export const Contacts = () => {
           <div id="cnt-col1">
             <h1 id="cnt-h1">Contact Me</h1>
             <p>
-              <a href="https://palrajan196@gmail.com">
+              <a href="https://vivekpaswan7090@gmail.com">
               <FontAwesomeIcon icon={faEnvelope}  className='Icon-email-phone' style={{ color:"red"}} />
               </a>
-              palrajan196@gmail.com
+              vivekpaswan7090@gmail.com
             </p>
             <p>
-              <a href="tel:+7052370557">
+              <a href="tel:+7084958176">
                <FontAwesomeIcon icon={faPhone} className='Icon-email-phone'/>
               </a>{" "}
-              7052370557
+              7084958176
             </p>
 
             <div id="social">

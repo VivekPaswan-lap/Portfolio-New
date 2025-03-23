@@ -57,7 +57,7 @@ function Header(){
     <div id="head-row">
       <div id="head-col1">
         <p>Frontend & Backend Developer</p>
-        <h1>Hi, I'am <span>R</span>ajan <span> </span><br />From Uttar Pradesh</h1>
+        <h1>Hi, I'am <span>V</span>ivek <span> </span><br />From Uttar Pradesh</h1>
       </div>
       <div id="head-col2">
         <img   src={myImage} alt="My Image" title="Rajan"/>

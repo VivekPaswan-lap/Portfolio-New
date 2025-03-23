@@ -29,7 +29,7 @@ function About(){
         <div id="about-col-2">
           <h1>About</h1>
           <p>
-            Hi, I am Rajan Pal. I have completed our B.Tech (Computer Science & Engineering) from VBSPU Jaunpur.
+            Hi, I am Vivek Paswan. I have completed my B.Tech (Computer Science & Engineering) from VBSPU Jaunpur.
             I have knowledge of Frontend, Backend and i have also good knowledge of C++ & DSA. 
           </p>
 
@@ -47,10 +47,10 @@ function About(){
           <div className="about-tab-contant active" id="Skill">
             <ul>
               <li>
-                <span>C++ / DSA</span> <br />
-                HTML CSS JavaScript Reactjs<br />
-                NodeJs <br />
-                MongoDB, MySql <br />
+                <span>java / DSA</span> <br />
+                HTML CSS JavaScript <br />
+                core java , Hibernate , Servlet , Spring , Spring boot <br />
+                 MySql <br />
                 MS Word
               </li>
             </ul>
@@ -59,8 +59,8 @@ function About(){
             <ul>
               <li>
                 <span>B.Tech.(CSE)</span> <br />
-                12th = 82% / 10th = 80%<br />
-                From SVM Fatehpur
+                12th = 57.2% / 10th = 71%<br />
+                From Mahatma Gandhi Inter College.
               </li>
             </ul>
           </div>
@@ -69,7 +69,7 @@ function About(){
               <li>
                 <span>Front End</span> <br />
                 <span>Back End</span> <br />
-                C++ High Level <br />
+                java  <br />
                 DSA High Level <br />
               </li>
             </ul>
