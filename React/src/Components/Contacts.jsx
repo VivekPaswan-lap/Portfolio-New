@@ -71,7 +71,7 @@ export const Contacts = () => {
 
             <div id="social">
               <a href=""></a>
-              <a href="https://www.facebook.com/share/19VT4PAww4/?mibextid=wwXIfr">
+              <a href="https://www.facebook.com/share/14wkpzWtmDK/">
                 
                 <FontAwesomeIcon icon={faFacebook} className='Icon' size='2x'/> 
               </a>
@@ -79,11 +79,11 @@ export const Contacts = () => {
                 
                 <FontAwesomeIcon icon={faTwitter} className='Icon' size='2x'/>
               </a>
-              <a href="https://www.instagram.com/palrajan196?igsh=MXdjcTdicjhtNGhkbQ%3D%3D&utm_source=qr">
+              <a href="https://www.instagram.com/_vivekpaswan_">
                  <FontAwesomeIcon icon={faInstagram} className='Icon' size='2x'/>
               
               </a>
-              <a href="https://www.linkedin.com/in/rajan-pal-7146012a2">
+              <a href=" https://www.linkedin.com/in/vivek-paswan-120148347/">
                 
                 <FontAwesomeIcon icon={faLinkedin} className='Icon' size='2x'/>
               </a>
